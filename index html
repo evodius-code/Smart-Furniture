@@ -23,7 +23,7 @@
     }
 
     .product {
-      background: white;
+      background: black;
       margin: 10px 0;
       padding: 15px;
       border-radius: 10px;
