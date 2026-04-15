@@ -5,5 +5,5 @@ Discover Timeless Comfort Without the Luxury Price Tag
 ​We believe that everyone deserves a home that feels like a sanctuary. Our furniture is designed with a "real life first" philosophy:
 ​Smart Material Selection: By utilizing high-grade engineered woods, durable textiles, and reinforced steel frames, we offer pieces that mimic the look of expensive hardwoods and designer fabrics at a fraction of the cost.
 ​Minimalist & Versatile Design: Our pieces feature clean lines and neutral palettes (think charcoal greys, soft oaks, and midnight blues) that seamlessly blend into any decor style—from industrial chic to modern farmhouse.
-​Easy Assembly & Shipping: Designed for the modern shopper, most items arrive in flat-pack containers to keep shipping costs low, featuring intuitive assembly kits that won't leave you frustrated.
+​Easy Assembly: Designed for the modern shopper, most items arrive in flat-pack containers to keep shipping costs low, featuring intuitive assembly kits that won't leave you frustrated.
 ​Featured Categories
