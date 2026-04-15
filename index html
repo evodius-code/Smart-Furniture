@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Furniture</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+      background: #f5f5f5;
+    }
+
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .container {
+      padding: 10px;
+    }
+
+    .product {
+      background: white;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    button {
+      background: green;
+      color: white;
+      border: none;
+      padding: 10px;
+      width: 100%;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background: darkgreen;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Quality Furniture</h1>
+  <p>Smart Living</p>
+</header>
+
+<div class="container">
+
+  <div class="product">
+    <img src="https://via.placeholder.com/300" alt="Sofa">
+    <h2>Sofa nzuri</h2>
+    <p>Bei: 300,000 TZS</p>
+    <button onclick="order('Sofa nzuri')">Order WhatsApp</button>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/300" alt="Kitanda">
+    <h2>Kitanda cha kisasa</h2>
+    <p>Bei: 500,000 TZS</p>
+    <button onclick="order('Kitanda')">Order WhatsApp</button>
+  </div>
+
+</div>
+
+<script>
+function order(product){
+  let number = "255788839340"; // weka namba yako
+  let message = "Nahitaji kuagiza " + product;
+  let url = "https://wa.me/" +255788839340 + "?text=" + encodeURIComponent(message);
+  window.open(url, "_blank");
+}
+</script>
+
+</body>
+</html>
