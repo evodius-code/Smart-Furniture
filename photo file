@@ -1,6 +1,286 @@
-<img src="https://vt.tiktok.com/ZSHEfQPXJ/.jpg" alt="Product 1 Description"> home Sofa <
-<img src=https://vt.tiktok.com/ZSHEfXXBd/.jpg" alt="Product 2 Description"> home furniture<
-<img src="https://vt.tiktok.com/ZSHEffqtD/.jpg" alt="Product 3 Description"> Bedsofa with its mattress <
-<img src="https://vt.tiktok.com/ZSHEff1sA/.jpg" alt="Product 4 Description"> Sitting room Sofa <
-<img src="https://vt.tiktok.com/ZSHEfQPXJ/.jpg" alt="Product 5 Description"> modern home Sofa <
-<img src="https://vt.tiktok.com/ZSHEfQqGK/.jpg" alt="Product 6 Description" width="300"> Modern home sitting Sofa >
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalogi ya Samani za Kisasa</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f8f9fa; margin: 0; padding: 20px; }
+        .header { text-align: center; padding: 40px 0; background: #fff; margin-bottom: 30px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .header h1 { margin: 0; color: #2c3e50; }
+        
+        /* Mpangilio wa Grid */
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        /* Kadi ya Bidhaa */
+        .product-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+            display: flex;
+            flex-direction: column;
+        }
+        .product-card:hover { transform: translateY(-10px); }
+        .product-card img { width: 100%; height: 250px; object-fit: cover; border-bottom: 2px solid #eee; }
+
+        .product-info { padding: 20px; flex-grow: 1; text-align: center; }
+        .product-info h3 { margin: 10px 0; font-size: 1.2em; color: #333; }
+        .product-info p { color: #666; font-size: 0.9em; height: 40px; overflow: hidden; }
+        .price { color: #e67e22; font-weight: bold; font-size: 1.3em; margin: 15px 0; }
+
+        /* Kitufe cha WhatsApp */
+        .btn-whatsapp {
+            display: block;
+            background-color: #25D366;
+            color: white;
+            padding: 12px;
+            text-decoration: none;
+            border-radius: 0 0 12px 12px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .btn-whatsapp:hover { background-color: #128C7E; }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Mkusanyiko wa Samani Bora 2024</h1>
+    <p>Gusa kitufe cha WhatsApp kuagiza sasa</p>
+</div>
+
+<div class="gallery-container">
+
+    <!-- 1. Modern Grey Sofa Set -->
+    <div class="product-card">
+        <img src="picha1.jpg" alt="Modern Grey Sofa Set">
+        <div class="product-info">
+            <h3>Modern Grey Sofa Set</h3>
+            <p>Seti kamili ya sofa na meza ya mbao.</p>
+            <div class="price">Tsh 1,500,000/-</div>
+        </div>
+        <a href="https://wa.me maelezo ya Modern Grey Sofa Set" class="btn-whatsapp">Agiza WhatsApp</a>
+    </div>
+
+    <!-- 2. Royal Black & Gold Bed -->
+    <div class="product-card">
+        <img src="picha2.jpg" alt="Royal Black & Gold Bed">
+        <div class="product-info">
+            <h3>Royal Black & Gold Bed</h3>
+            <p>Kitanda cha velvet na nakshi za dhahabu.</p>
+            <div class="price">Tsh 1,800,000/-</div>
+        </div>
+        <a href="https://wa.me maelezo ya Royal Black Bed" class="btn-whatsapp">Agiza WhatsApp</a>
+    </div>
+
+    <!-- 3. Classic Chesterfield Bed -->
+    <div class="product-card">
+        <img src="picha3.jpg" alt="Classic Chesterfield Bed">
+        <div class="product-info">
+            <h3>Classic Chesterfield Bed</h3>
+            <p>Muundo wa kisasa wenye vifungo (tufted).</p>
+            <div class="price">Tsh 1,400,000/-</div>
+        </div>
+        <a href="https://wa.me maelezo ya Chesterfield Bed" class="btn-whatsapp">Agiza WhatsApp</a>
+    </div>
+
+    <!-- 4. Executive Console Sofa -->
+    <div class="product-card">
+        <img src="picha4.jpg" alt="Executive Console Sofa">
+        <div class="product-info">
+            <h3>Executive Console Sofa</h3>
+            <p>Sofa yenye droo na meza za pembeni.</p>
+            <div class="price">Tsh 1,950,000/-</div>
+        </div>
+        <a href="https://wa.me maelezo ya Console Sofa" class="btn-whatsapp">Agiza WhatsApp</a>
+    </div>
+
+    <!-- 5. Luxury Nordic Dressing Table -->
+    <div class="product-card">
+        <img src="picha5.jpg" alt="Dressing Table">
+        <div class="product-info">
+            <h3>Luxury Nordic Dressing Table</h3>
+            <p>Meza ya upambaji yenye kioo kirefu.</p>
+            <div class="price">Tsh 850,000/-</div>
+        </div>
+        <a href="https://wa.me maelezo ya Dressing Table" class="btn-whatsapp">Agiza WhatsApp</a>
+    </div>
+
+    <!-- 6. 2-in-1 Wardrobe -->
+    <div class="product-card">
+        <img src="picha6.jpg" alt="Wardrobe">
+        <div class="product-info">
+            <h3>Modern 2-Door Wardrobe</h3>
+            <p>Kabati na sehemu ya kioo kwa pamoja.</p>
+            <div class="price">Tsh 750,000/-</div>
+        </div>
+        <a href="https://wa.me maelezo ya Kabati" class="btn-whatsapp">Agiza WhatsApp</a>
+    </div>
+
+    <!-- 7. White & Wood TV Stand -->
+    <div class="product-card">
+        <img src="picha7.jpg" alt="TV Stand">
+        <div class="product-info">
+            <h3>Modern White & Wood TV Stand</h3>
+            <p>Meza ya TV ya kisasa yenye droo.</p>
+            <div class="price">Tsh 450,000/-</div>
+        </div>
+        <a href="https://wa.me maelezo ya TV Stand" class="btn-whatsapp">Agiza WhatsApp</a>
+    </div>
+
+    <!-- 8. Kitchen Sideboard -->
+    <div class="product-card">
+        <img src="picha8.jpg" alt="Kitchen Sideboard">
+        <div class="product-info">
+            <h3>Luxury Kitchen Sideboard</h3>
+            <p>Kabati la vyombo lenye mlango wa kioo.</p>
+            <div class="price">Tsh 650,000/-</div>
+        </div>
+        <a href="https://wa.me maelezo ya Sideboard" class="btn-whatsapp">Agiza WhatsApp</a>
+    </div>
+
+    <!-- 9. Grey Bubble Sofa -->
+    <div class="product-card">
+        <img src="picha9.jpg" alt="Bubble Sofa">
+        <div class="product-info">
+            <h3>Luxury Grey Bubble L-Shape</h3>
+            <p>Sofa ya kitambaa kizito cha bubble.</p>
+            <div class="price">Tsh 2,800,000/-</div>
+        </div>
+        <a href="https://wa.me maelezo ya Bubble Sofa" class="btn-whatsapp">Agiza WhatsApp</a>
+    </div>
+
+    <!-- 10. Minimalist Slatted TV Stand -->
+    <div class="product-card">
+        <img src="picha10.jpg" alt="Slatted TV Stand">
+        <div class="product-info">
+            <h3>Minimalist Slatted TV Stand</h3>
+            <p>Muundo wa machujio unaopitisha hewa.</p>
+            <div class="price">Tsh 380,000/-</div>
+        </div>
+        <a href="https://wa.me maelezo ya Slatted TV Stand" class="btn-whatsapp">Agiza WhatsApp</a>
+    </div>
+
+    <!-- 11. Black Corduroy L-Shape -->
+    <div class="product-card">
+        <img src="picha11.jpg" alt="Black Corduroy">
+        <div class="product-info">
+            <h3>Black Corduroy L-Shape</h3>
+            <p>Sofa ya mistari rangi nyeusi.</p>
+            <div class="price">Tsh 2,200,000/-</div>
+        </div>
+        <a href="https://wa.me maelezo ya Corduroy Sofa" class="btn-whatsapp">Agiza WhatsApp</a>
+    </div>
+
+    <!-- 12. Premium 3-Door Wardrobe -->
+    <div class="product-card">
+        <img src="picha12.jpg" alt="3-Door Wardrobe">
+        <div class="product-info">
+            <h3>Premium 3-Door Wardrobe</h3>
+            <p>Kabati pana lenye kioo kikubwa.</p>
+            <div class="price">Tsh 950,000/-</div>
+        </div>
+        <a href="https://wa.me maelezo ya 3-Door Wardrobe" class="btn-whatsapp">Agiza WhatsApp</a>
+    </div>
+
+    <!-- 13. Luxury Geometric TV Stand -->
+    <div class="product-card">
+        <img src="picha13.jpg" alt="Geometric TV Stand">
+        <div class="product-info">
+            <h3>Luxury Geometric TV Stand</h3>
+            <p>Pembe za duara na nakshi za dhahabu.</p>
+            <div class="price">Tsh 550,000/-</div>
+        </div>
+        <a href="https://wa.me maelezo ya Geometric TV Stand" class="btn-whatsapp">Agiza WhatsApp</a>
+    </div>
+
+    <!-- 14. Tufted Light Grey L-Shape -->
+    <div class="product-card">
+        <img src="picha14.jpg" alt="Tufted Grey Sofa">
+        <div class="product-info">
+            <h3>Tufted Light Grey L-Shape</h3>
+            <p>Sofa ya kijivu yenye nakshi za vifungo.</p>
+            <div class="price">Tsh 2,400,000/-</div>
+        </div>
+        <a href="https://wa.me maelezo ya Tufted Sofa" class="btn-whatsapp">Agiza WhatsApp</a>
+    </div>
+
+    <!-- 15. Velvet L-Shape & TV Stand -->
+    <div class="product-card">
+        <img src="picha15.jpg" alt="Seti Sofa na TV Stand">
+        <div class="product-info">
+            <h3>Velvet L-Shape & TV Stand</h3>
+            <p>Seti kamili ya sofa na meza ya TV.</p>
+            <div class="price">Tsh 2,150,000/-</div>
+        </div>
+        <a href="https://wa.me maelezo ya Seti hii" class="btn-whatsapp">Agiza WhatsApp</a>
+    </div>
+
+    <!-- 16. Modern Oak TV Stand -->
+    <div class="product-card">
+        <img src="picha16.jpg" alt="Oak TV Stand">
+        <div class="product-info">
+            <h3>Modern Oak TV Stand</h3>
+            <p>Mbao asilia na miguu ya dhahabu.</p>
+            <div class="price">Tsh 420,000/-</div>
+        </div>
+        <a href="https://wa.me maelezo ya Oak TV Stand" class="btn-whatsapp">Agiza WhatsApp</a>
+    </div>
+
+    <!-- 17. Navy Blue Fluted Bed -->
+    <div class="product-card">
+        <img src="picha17.jpg" alt="Blue Bed">
+        <div class="product-info">
+            <h3>Navy Blue Fluted Bed</h3>
+            <p>Kitanda cha bluu chenye mistari.</p>
+            <div class="price">Tsh 1,200,000/-</div>
+        </div>
+        <a href="https://wa.me maelezo ya Blue Bed" class="btn-whatsapp">Agiza WhatsApp</a>
+    </div>
+
+    <!-- 18. Rustic Pallet Bed -->
+    <div class="product-card">
+        <img src="picha18.jpg" alt="Pallet Bed">
+        <div class="product-info">
+            <h3>Rustic Pallet Bed Frame</h3>
+            <p>Kitanda cha pallets chenye soketi.</p>
+            <div class="price">Tsh 550,000/-</div>
+        </div>
+        <a href="https://wa.me maelezo ya Pallet Bed" class="btn-whatsapp">Agiza WhatsApp</a>
+    </div>
+
+    <!-- 19. Mocha V-Gold Bed -->
+    <div class="product-card">
+        <img src="picha19.jpg" alt="Mocha Bed">
+        <div class="product-info">
+            <h3>Mocha V-Gold Designer Bed</h3>
+            <p>Velvet ya mocha na dhahabu.</p>
+            <div class="price">Tsh 1,350,000/-</div>
+        </div>
+        <a href="https://wa.me maelezo ya Mocha Bed" class="btn-whatsapp">Agiza WhatsApp</a>
+    </div>
+
+    <!-- 20. Smart Cinema L-Shape -->
+    <div class="product-card">
+        <img src="picha20.jpg" alt="Smart Sofa">
+        <div class="product-info">
+            <h3>Smart Cinema L-Shape Sofa</h3>
+            <p>Sofa yenye soketi na cup holders.</p>
+            <div class="price">Tsh 3,500,000/-</div>
+        </div>
+        <a href="https://wa.me maelezo ya Smart Sofa" class="btn-whatsapp">Agiza WhatsApp</a>
+    </div>
+
+</div>
+
+</body>
+</html>
+
